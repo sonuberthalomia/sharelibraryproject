@@ -1,12 +1,4 @@
-pipeline {
-    agent any
-
-    stages {
-        stage('Hello') {
-            steps {
-                echo 'Hello World'
-            }
-        }
-    }
+def call() {
+sh 'echo my name is Sonu berthalomia'
 }
 
